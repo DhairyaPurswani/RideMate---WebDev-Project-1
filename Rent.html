@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent a Cycle - RideMate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="head">
+        <h1>RideMate</h1>
+        <p>Better Rides , Better Journeys</p>
+        <nav>
+        <a href="index.html">Home</a>
+        <a href="Rent.html">Rent a Cycle</a>
+        <a href="Find.html">Find a Cycle</a>
+        <a href="index.html#about">About</a>
+        </nav>
+    </header>
+    
+    <main>
+        <h2>Rent Your Cycle</h2>
+        
+        <section id="rent">
+            
+        <form>
+            <h4>Please fill out the following form:-</h4>
+            <label for="name">Your Name:</label>
+            <br>
+            <input type="text" id="name" required>
+            <br><br>
+            <label for="bicycle">Bicycle/Company Name</label>
+            <br>
+            <input type="text" id="bicycle">
+            <br><br>
+            <label for="type">Bicycle Type:</label>
+            <br>
+            <select id="type" required>
+                <option></option>
+                <option>Regular Bicycle</option>
+                <option>Geared Bicycle</option>
+                <option>Electric Bicycle</option>
+            </select>
+            <br><br>
+            <label for="location">Location:</label>
+            <br>
+            <select id="location" required>
+                <option></option>
+                <option>Uniworld 1</option>
+                <option>Uniworld 2</option>
+                <option>Scaler School of Technology</option>
+            </select>
+            <br><br>
+            <label for="price">Price per Hour (in Rupees):</label>
+            <br>
+            <input type="number" id="price" required>
+            <br><br>
+            <label for="time from">Available From:</label>
+            <br>
+            <input type="time" id="time from" required>
+            <br><br>
+            <label for="time till">Available Till:</label> 
+            <br>
+            <input type="time" id="time till" required>
+            <br><br>
+            <label for="description">Description:</label>
+            <br>
+            <textarea id="description" rows="5" cols="40" placeholder="Type Something"></textarea>
+            <br><br>
+            <label for="image">Bicycle Image</label>
+            <br>
+            <input type="file" id="image" >
+            <br><br>
+            <input type="submit" value="Rent">
+
+
+        </form>
+    </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

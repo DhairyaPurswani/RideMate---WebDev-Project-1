@@ -1,0 +1,257 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f7fa;
+    color: #091b35;
+}
+
+/*header for index page*/
+#homehead {
+    background-color: #091b35;
+    color: white;
+    padding: 35px 20px;
+    text-align: center;
+}
+
+#homehead h1 {
+    margin: 0;
+    font-size: 60px;
+    font-family: Georgia, serif;
+}
+
+#homehead p {
+    margin: 8px 0 20px;
+    font-size: 21px;
+}
+
+#homehead nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#homehead nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#homehead nav a:hover {
+    transform: scale(1.1);
+    text-shadow: 2px 2px 5px rgb(2, 171, 190);
+}
+
+marquee{
+    font-size: 18px;
+    font-weight: bold;
+    color: #091b35cb;
+}
+
+
+/*header for remaining pages*/
+#head {
+    background-color: #091b35;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#head h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+#head p {
+    margin: 5px 0 15px;
+}
+
+#head nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#head nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#head nav a:hover {
+    transform: scale(1.1);
+    text-shadow: 2px 2px 5px rgb(2, 171, 190);
+}
+
+/*Hero Page */
+#home{
+    min-height: 55vh;
+    padding-bottom: 30px;
+    padding-top: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background-color: #eef4f7;
+}
+
+#home h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+
+    animation: fadeUp 1s ease;
+}
+
+#home p {
+    font-size: 20px;
+    max-width: 600px;
+
+    animation: fadeUp 1s ease 0.3s;
+    animation-fill-mode: both;
+}
+
+main {
+    padding: 30px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.options {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 30px;
+    animation: fadeUp 1s ease 0.6s;
+    animation-fill-mode: both;
+    margin-bottom: 15px;
+}
+
+.options a {
+    height: 150px;
+    width: 200px;
+    font-size: 25px;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    text-decoration: none;
+
+    border: 2px solid black;
+    border-radius: 15px;
+
+    background-color: white;
+    color: #222;
+}
+
+.options a:hover {
+    text-decoration: underline;
+    box-shadow: 0px 0px 20px #091b35;
+    transform: translateY(-8px) scale(1.03);
+}
+
+/*Cycle Cards for finding cycle on rent*/
+
+.cycle-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+.cycle-card {
+    background-color: white;
+    border: 2px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.cycle-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;      /*This is because we set both height and width and all pictures have different proportions.*/
+    border-radius: 10px;
+}
+
+.cycle-card h3 {
+    margin-bottom: 10px;
+}
+
+.cycle-card p {
+    margin: 8px;
+}
+
+.cycle-card button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #1f2937;
+    color: white;
+    cursor: pointer;
+}
+
+.cycle-card button:hover {
+    transform: scale(1.05);
+}
+
+
+/*CSS for Form*/
+
+form {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 25px;
+
+    background-color: white;
+    border: 2px solid #ddd;
+    border-radius: 15px;
+}
+
+form input,
+form select,
+form textarea {
+    margin-top: 5px;
+    padding: 8px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="time"],
+form select,
+form textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    padding: 10px 25px;
+    background-color: #1f2937;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    transform: scale(1.05);
+}
+
+
+/*Footer*/
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
